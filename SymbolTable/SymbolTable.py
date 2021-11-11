@@ -1,11 +1,11 @@
 def hashCode(element):
     characters = list(element)
-    hash_code = 0
+    hashCodeToReturn = 0
 
     for char in characters:
-        hash_code += ord(char)
+        hashCodeToReturn += ord(char)
 
-    return hash_code
+    return hashCodeToReturn
 
 
 class SymbolTable:
