@@ -1,12 +1,12 @@
 class FiniteAutomata:
-    def __init__(self, conf_file):
+    def __init__(self, file):
         self._states = []
         self._alphabet = []
         self._initialStates = []
         self._finalStates = []
         self._transitions = {}
 
-        self._loadData(conf_file)
+        self._loadData(file)
 
     def _classifyToken(self, section, probe):
         if section == 'states':
@@ -29,8 +29,8 @@ class FiniteAutomata:
             else:
                 self._transitions[(values[0], values[1])] = [values[2]]
 
-    def _loadData(self, conf_file):
-        with open(conf_file, 'r') as file:
+    def _loadData(self, configFile):
+        with open(configFile, 'r') as file:
             lines = file.readlines()
             section = ''
 
