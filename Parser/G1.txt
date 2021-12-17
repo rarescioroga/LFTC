@@ -1,7 +1,7 @@
 S,A,B,C
 (,),+,*,-
 S
-S -> B A
+S -> A B
 A -> ( S ) | - C
 B -> + S | E
 C -> * A | E
