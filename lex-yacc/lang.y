@@ -69,7 +69,7 @@ stmtTemp : /*Empty*/  | cmpdstmt
     ;
 declaration_statement : VAR ID COLON primitive_type init_statement
     ;
-init_statement : /*Empty*/ | EQ expression
+init_statement : /*Empty*/ | ATTRIB expression
     ;
 primitive_type : INT typeTemp | CHAR | STRING
     ;
@@ -79,7 +79,7 @@ statement : declaration_statement | assignment_statement | io_statement | if_sta
     ;
 io_statement : read_statement | write_statement
     ;
-assignment_statement : ID EQ expression
+assignment_statement : ID ATTRIB expression
     ;
 read_statement : READ OPEN_ROUND_BRACKET ID CLOSED_ROUND_BRACKET
     ;

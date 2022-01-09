@@ -1,6 +1,6 @@
 start
-    var a: int = 100;
-    var b: int = 200;
+    var a: int;
+    var b: int;
     var c: int;
     read(a);
     read(b);
