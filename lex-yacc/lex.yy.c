@@ -947,7 +947,7 @@ YY_RULE_SETUP
 case 18:
 YY_RULE_SETUP
 #line 40 "specif.lxi"
-{printf( "Separator: %s\n", yytext );  return SEMI_COLON;}
+{printf( "Separator: %s\n", yytext );  return SEMICOLON;}
 	YY_BREAK
 case 19:
 YY_RULE_SETUP

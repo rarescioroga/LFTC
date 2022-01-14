@@ -6,13 +6,13 @@ start
     read(b);
     read(c);
     var max: int = -1200;
-    var max: int = asv;
+    var max: int = 100;
     if (max < b) then {
         max = b;
-    }
+    };
     if (max <= c) then {
         max = c;
-    }
+    };
     print("Max");
     print(max);
 finish

@@ -37,7 +37,7 @@ exit	{printf( "Reserved word: %s\n", yytext); return EXIT;}
 {const}	{printf( "Constant: %s\n", yytext ); return CONST;}
 
 ":"	{printf( "Separator: %s\n", yytext );  return COLON;}
-";"	{printf( "Separator: %s\n", yytext );  return SEMI_COLON;}
+";"	{printf( "Separator: %s\n", yytext );  return SEMICOLON;}
 "{"	{printf( "Separator: %s\n", yytext );  return OPEN_CURLY_BRACKET;}
 "}"	{printf( "Separator: %s\n", yytext );  return CLOSED_CURLY_BRACKET;}
 "("	{printf( "Separator: %s\n", yytext );  return OPEN_ROUND_BRACKET;}

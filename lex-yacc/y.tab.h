@@ -75,7 +75,7 @@
      OPEN_RIGHT_BRACKET = 291,
      CLOSED_RIGHT_BRACKET = 292,
      COMMA = 293,
-     SEMI_COLON = 294,
+     SEMICOLON = 294,
      COLON = 295,
      SPACE = 296
    };
@@ -117,7 +117,7 @@
 #define OPEN_RIGHT_BRACKET 291
 #define CLOSED_RIGHT_BRACKET 292
 #define COMMA 293
-#define SEMI_COLON 294
+#define SEMICOLON 294
 #define COLON 295
 #define SPACE 296
 
